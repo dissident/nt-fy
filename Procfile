@@ -1,1 +1,1 @@
-worker: go run app.go
+worker: ./bin/nt-fy
