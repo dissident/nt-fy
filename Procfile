@@ -1,1 +1,1 @@
-worker: tsc && node app.js
+worker: go run app.go
