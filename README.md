@@ -1,13 +1,13 @@
-# Heroku oriented application for translate logs from amqp to telegram channel
+# Message translator from rabbit to telegramm
 
-## install
+## Install
 
 ```
-  npm install
+  go get
 ```
 
 ## Usage
 
 ```
-  npm start
+  go run app.go
 ```
