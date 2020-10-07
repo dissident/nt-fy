@@ -28,8 +28,6 @@ func main() {
 	failOnError(err, "Failed to parse telegramChannel ENV")
 	amqpLink := os.Getenv("AMQP")
 
-	sendMessage(telegramToken, telegramChannel, "test message")
-
 	conn, err := amqp.Dial(amqpLink)
 	failOnError(err, "Failed to connect to RabbitMQ")
 	defer conn.Close()
